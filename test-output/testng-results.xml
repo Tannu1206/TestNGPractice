@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="3" total="8" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="112" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:12 IST">
+    <groups>
+      <group name="Sanity">
+        <method signature="HomePageTest.a()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="a" class="AutomationPractice.Test11.HomePageTest"/>
+        <method signature="HomePageTest.b()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="b" class="AutomationPractice.Test11.HomePageTest"/>
+        <method signature="ListingPageTest.f()[pri:0, instance:AutomationPractice.Test11.ListingPageTest@2d8f65a4]" name="f" class="AutomationPractice.Test11.ListingPageTest"/>
+        <method signature="HomePageTest.b()[pri:0, instance:AutomationPractice.Test11.HomePageTest@4d50efb8]" name="b" class="AutomationPractice.Test11.HomePageTest"/>
+      </group> <!-- Sanity -->
+      <group name="Regression">
+        <method signature="HomePageTest.b()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="b" class="AutomationPractice.Test11.HomePageTest"/>
+        <method signature="HomePageTest.b()[pri:0, instance:AutomationPractice.Test11.HomePageTest@4d50efb8]" name="b" class="AutomationPractice.Test11.HomePageTest"/>
+        <method signature="HomePageTest.c()[pri:0, instance:AutomationPractice.Test11.HomePageTest@4d50efb8]" name="c" class="AutomationPractice.Test11.HomePageTest"/>
+      </group> <!-- Regression -->
+    </groups>
+    <test name="ONE" duration-ms="66" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:12 IST">
+      <class name="AutomationPractice.Test11.HomePageTest">
+        <test-method status="PASS" signature="bg()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="bg" is-config="true" duration-ms="1" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- bg -->
+        <test-method status="PASS" signature="a()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="a" duration-ms="8" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- a -->
+        <test-method status="PASS" signature="b()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="b" duration-ms="3" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="ag()[pri:0, instance:AutomationPractice.Test11.HomePageTest@27a8c74e]" name="ag" is-config="true" duration-ms="2" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- ag -->
+      </class> <!-- AutomationPractice.Test11.HomePageTest -->
+      <class name="AutomationPractice.Test11.ListingPageTest">
+        <test-method status="PASS" signature="f()[pri:0, instance:AutomationPractice.Test11.ListingPageTest@2d8f65a4]" name="f" duration-ms="3" started-at="2021-02-20T18:47:11 IST" finished-at="2021-02-20T18:47:11 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- f -->
+      </class> <!-- AutomationPractice.Test11.ListingPageTest -->
+    </test> <!-- ONE -->
+    <test name="TWO" duration-ms="8" started-at="2021-02-20T18:47:12 IST" finished-at="2021-02-20T18:47:12 IST">
+      <class name="AutomationPractice.Test11.HomePageTest">
+        <test-method status="PASS" signature="b()[pri:0, instance:AutomationPractice.Test11.HomePageTest@4d50efb8]" name="b" duration-ms="1" started-at="2021-02-20T18:47:12 IST" finished-at="2021-02-20T18:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- b -->
+        <test-method status="PASS" signature="c()[pri:0, instance:AutomationPractice.Test11.HomePageTest@4d50efb8]" name="c" duration-ms="2" started-at="2021-02-20T18:47:12 IST" finished-at="2021-02-20T18:47:12 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- c -->
+      </class> <!-- AutomationPractice.Test11.HomePageTest -->
+    </test> <!-- TWO -->
+  </suite> <!-- Suite -->
+</testng-results>
